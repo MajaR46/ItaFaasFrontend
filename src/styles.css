@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+    color: #AAFF00;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.navbar a:hover {
+    color: #AAFF00;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.user-preview {
+    padding: 30px 16px;
+    border-bottom: 1px solid #fafafa;
+    max-width: 500px;
+    text-align: left;
+    margin: auto;
+}
+
+.user-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-preview h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    color: #AAFF00;
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.user-preview a {
+    text-decoration: none;
+}
+
+.user-details h2 {
+    font-size: 20px;
+    color: #AAFF00;
+    margin-bottom: 10px;
+}
+
+.user-details div {
+    margin: 20px 0;
+}
+
+.user-details button {
+    background: #AAFF00;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.login input,
+.login textarea,
+.login select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.loginButton {
+    background: #AAFF00;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: left;
+    display: block;
+}
+
+h2 {
+    font-size: 20px;
+    color: #AAFF00;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.create h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.create input,
+.create textarea,
+.create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.create button {
+
+    background: #AAFF00;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background: rgb(252, 63, 63);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.updateButton {
+    background: #AAFF00;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
